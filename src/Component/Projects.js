@@ -1,0 +1,110 @@
+import React from 'react';
+import tick from "../assets/ticktack.png";
+import {IoLogoGithub} from "react-icons/io5";
+import weather from "../assets/weather.png";
+
+
+function Projects() {
+  return (
+    <div className= "w-full h-auto">
+  
+      <p className=" lg:text-[6rem] text-[3rem] flex justify-center mt-[2rem] font-bold text-cyan-600" ><u>Personal Projects</u></p>
+      <div className="md:flex  flex-wrap gap-11 mt-[5rem]">
+        <div className="flex mx-auto  drop-shadow-2xl transition duration-500 hover:scale-110 ">
+          <img
+                src={tick}
+                className="md:w-[800px] w-[500px] md:h-[400px] rounded-xl"
+              />
+        </div>
+        <div className="">
+             <p className=" max-w-[800px] lg:text-[1.5rem] mt-[2rem] lg:mt-[7rem] md:mt-[3rem]">Create E-commerce WebSite By Using <spam className="font-bold">MERN Stack</spam> user Can select their products and add it to cart after 
+                            that user can placed their products admin can access all data like place items,ordered items and stoks,i have use the concept of <spam className="font-bold">UseState Hook ,useEffect,mongoose,express ,react Icons ,jwt ,bcrypt </spam> library...
+             </p>
+            <div className="flex mx-auto justify-center mt-1">
+               <a href="https://github.com/Adarsh7079"><IoLogoGithub  className="text-[3rem] rounded-full text-blue-800 transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 duration-300 hover:text-red-600"/></a>
+         
+            </div>
+        </div>
+     </div>
+     <div className="md:flex  flex-wrap gap-11 mt-[5rem]">
+         <div className="">
+            <p className=" max-w-[800px] lg:text-[1.5rem] mt-[2rem] lg:mt-[7rem] md:mt-[3rem]">Create Weather Detection WebSite By Using <spam className="font-bold">HTML,CSS & JavaScript</spam> user Can select their live location and get weather details 
+                            concept use as  <spam className="font-bold">OpenWeather API ,sync & async, fetch api </spam> etc...
+             </p>
+            <div className="flex mx-auto justify-center mt-1">
+               <a href="https://github.com/Adarsh7079"><IoLogoGithub  className="text-[3rem] rounded-full text-blue-800 transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 duration-300 hover:text-red-600"/></a>
+            </div>
+         </div>
+       <div className="flex mx-auto  drop-shadow-2xl transition duration-500 hover:scale-110 ">
+            <img
+              src={weather}
+              className="md:w-[800px] w-[500px] md:h-[400px] rounded-xl"
+            />
+       </div>
+       
+       <div className="md:flex  flex-wrap gap-11 mt-[5rem]">
+          <div className="flex mx-auto  drop-shadow-2xl transition duration-500 hover:scale-110 ">
+            <img
+                  src={weather}
+                  className="md:w-[800px] w-[500px] md:h-[400px] rounded-xl"
+                />
+          </div>
+          
+          
+          <div className="">
+              <p className=" max-w-[800px] lg:text-[1.5rem] mt-[2rem] lg:mt-[7rem] md:mt-[3rem]">Create Movie Recommandation WebSite By Using <spam className="font-bold">React.Js & Tailwid CSS</spam> user Can serch about any movie 
+                  it have responsive UI which is user friendly <spam className="font-bold">UseState Hook ,useEffect,IMDB API </spam> library...
+              </p>
+              <div className="flex mx-auto justify-center mt-1">
+                <a href="https://github.com/Adarsh7079"><IoLogoGithub  className="text-[3rem] rounded-full text-blue-800 transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 duration-300 hover:text-red-600"/></a>
+          
+              </div>
+          </div>
+       </div>
+
+       <div className="md:flex  flex-wrap gap-11 mt-[5rem]">
+          <div className="">
+              <p className=" max-w-[800px] lg:text-[1.5rem] mt-[2rem] lg:mt-[7rem] md:mt-[3rem]">Create Voice to Test Converter WebSite By Using <spam className="font-bold">HReact.Js && Tailwind </spam> user Can Speak and Copy that 
+              text on clipboard it has functionality like stop ,start and restart  <spam className="font-bold">use speech-recognition library , use concept of useState ,object destructuring</spam> etc...
+              </p>
+              <div className="flex mx-auto justify-center mt-1">
+                <a href="https://github.com/Adarsh7079"><IoLogoGithub  className="text-[3rem] rounded-full text-blue-800 transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 duration-300 hover:text-red-600"/></a>
+          
+              </div>
+          </div>
+          <div className="flex mx-auto  drop-shadow-2xl transition duration-500 hover:scale-110 ">
+                <img
+                  src={tick}
+                  className="md:w-[800px] w-[500px] md:h-[400px] rounded-xl"
+                />
+          </div>
+     
+        </div>
+
+           
+       <div className="md:flex  flex-wrap gap-11 mt-[5rem]">
+          <div className="flex mx-auto  drop-shadow-2xl transition duration-500 hover:scale-110 ">
+            <img
+                  src={tick}
+                  className="md:w-[800px] w-[500px] md:h-[400px] rounded-xl"
+                />
+          </div>
+          
+          
+          <div className="">
+              <p className=" max-w-[800px] lg:text-[1.5rem] mt-[2rem] lg:mt-[7rem] md:mt-[3rem]">Create Tic Tac Toe Game By using  <spam className="font-bold">HTML ,CSS & JavaScript</spam> user Can play and restart Game
+              </p>
+              <div className="flex mx-auto justify-center mt-1">
+                <a href="https://github.com/Adarsh7079"><IoLogoGithub  className="text-[3rem] rounded-full text-blue-800 transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 duration-300 hover:text-red-600"/></a>
+          
+              </div>
+          </div>
+       </div>
+
+
+      </div>
+    </div>
+  )
+}
+
+export default Projects
