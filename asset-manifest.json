@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bdff6f3a.css",
+    "main.js": "/portfolio/static/js/main.989ee847.js",
+    "static/media/parallax.png": "/portfolio/static/media/parallax.7d332d8b01392fe15809.png",
+    "static/media/movie.png": "/portfolio/static/media/movie.95ea54d90f44454ef2f7.png",
+    "static/media/weather.png": "/portfolio/static/media/weather.56de5a8eac3d27e3ee9f.png",
+    "static/media/food.png": "/portfolio/static/media/food.202ed0aebe04a4786357.png",
+    "static/media/g4g.png": "/portfolio/static/media/g4g.71e13b91d42ff98ef2cd.png",
+    "static/media/text.png": "/portfolio/static/media/text.6c6582b4e591e90d3956.png",
+    "static/media/adarsh.jpeg": "/portfolio/static/media/adarsh.4ba109225ceadfa9aa54.jpeg",
+    "static/media/adarsh.jpg": "/portfolio/static/media/adarsh.4ba109225ceadfa9aa54.jpg",
+    "static/media/bseb.svg": "/portfolio/static/media/bseb.346a07c8a678df2918a02650d7286af7.svg",
+    "static/media/ticktack.png": "/portfolio/static/media/ticktack.40a4565ecbd03f471cf1.png",
+    "index.html": "/portfolio/index.html",
+    "main.bdff6f3a.css.map": "/portfolio/static/css/main.bdff6f3a.css.map",
+    "main.989ee847.js.map": "/portfolio/static/js/main.989ee847.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdff6f3a.css",
+    "static/js/main.989ee847.js"
+  ]
+}
