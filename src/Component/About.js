@@ -28,25 +28,26 @@ function About() {
 
 
   return (
-    <div className= "w-full h-auto z-0">
+    <div className= " h-auto z-0">
       {/* left */}
-      <div className="lg:flex lg:justify-between flex-wrap">
-        <div className="lg:max-w-[50%] lg:mt-[6rem] mt-[3rem] w-full">
+      <div className="lg:flex md:justify-between flex-wrap">
+        <div className="lg:max-w-[60%] lg:mt-[6rem] mt-[3rem]">
           <p className="text-[2rem] font-boldtext-gray-600 ">Hello I'm</p> <br/>
-          <p className=" -mt-8  lg:mt-5 lg:text-[6rem] text-[3rem] font-bold lg:leading-9 text-red-400
-      ">Adarsh Paritosh</p>
+          <p className=" text-[2rem] md:mt-2 lg:text-[3rem] font-bold lg:leading-9 text-green-400">
+            Adarsh Paritosh
+          </p>
           <div className="lg:mt-11">
-            <p className="lg:text-[2rem] text-[1rem] lg:leading-9 text-gray-600">I am Final Year Student of Computer Science & Engineering from Punjab Technical University
+            <p className="lg:text-[1.5rem] text-[1rem] lg:leading-9 text-gray-600">I am Final Year Student of Computer Science & Engineering from Punjab Technical University
             currently I am Student and I want to be a softwar Developer Engineer,I am intrested in Data Structures and Algorithm & MERN Stack Development,I am 3* Coder at LeetCode and Expert at CodeStudio..</p>
           </div>
         </div>
          {/* right */}
         <motion.div
-         className="lg:max-w-[50%]  mt-[4rem] bg-[rgba(220,202,197,0.83)] w-[400px] h-[380px] rounded-xl shadow-2xl shadow-[#496666d9]  mx-auto md:mx-0">
+         className="  mt-[4rem] bg-[rgba(220,202,197,0.83)] w-[400px] h-[380px] rounded-xl shadow-2xl shadow-[#496666d9]  mx-auto md:mx-0">
             <img src={photo} className="lg:w-96 w-[380px] h-[380px] flex mx-auto mt-3 rounded-xl mx-0"/>
         </motion.div>
       </div>
-      <button onClick={onButtonClick }  className="btncv text-gray-900 font-semibold flex mx-auto justify-center items-center md:mx-0">Download CV</button>
+      <button onClick={onButtonClick }  className="btncv text-gray-900 font-semibold flex mx-auto justify-center items-center md:mx-0 ">Download CV</button>
       <div className="flex lg:gap-11 mt-[3rem] justify-center gap-10 lg:justify-start"> 
          <div className="rounded-full shadow-2xl ">
            <a  href="https://www.linkedin.com/in/adarsh-paritosh-59b396203/" ><IoLogoLinkedin className="text-[3rem] rounded-full text-blue-800 transition ease-in-out delay-100  hover:translate-y-1 hover:scale-110 duration-300 hover:text-red-600"/></a>
@@ -61,10 +62,7 @@ function About() {
            <a href="https://github.com/Adarsh7079"><IoLogoGithub  className="text-[3rem] rounded-full text-blue-800 transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 duration-300 hover:text-red-600"/></a>
          </div>
       </div>
-     
-            
-      
-      <div><p className="lg:text-[9rem] text-[3rem] opacity-25 font-bold">Adarsh Paritosh</p></div>
+      <div className=""><p className=" lg:text-[4rem]  text-[2.3rem] opacity-25 font-bold">Adarsh Paritosh</p></div>
       <div className="w-full bg-red-400"><div className="w-1 h-1 rounded-2xl"></div></div>
       {/* techstack */}
       <div className="flex justify-center ">

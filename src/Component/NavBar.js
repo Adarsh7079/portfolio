@@ -10,13 +10,13 @@ function NavBar() {
     const [isShow,setShow]=useState(false);
   return (
     <nav className=" fixed w-full shadow-2xl bg-gray-200 z-50">
-        <div className="hidden md:flex w-full h-[65px] p-3 px-4 md:p-6 md:px-20 items-center justify-end" >
-            <div className='flex gap-9 lg:gap-24 relative'>
-                <NavLink  to="/about"className="text-xl mt-2 text-[#515151] hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:text-red-400  font-semibold  ">About Me</NavLink>
-                <NavLink to="/codingprofile" className="text-xl mt-2 text-[#515151] hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:text-red-400 font-semibold">Coding Profile</NavLink>
-                <NavLink  to="/projects" className="text-xl mt-2 text-[#515151] hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:text-red-400  font-semibold">Projects</NavLink>
-                <NavLink to="/education" className="text-xl mt-2  text-[#515151] hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:text-red-400  font-semibold ">Education </NavLink>
-                <NavLink  to="/contact" className=" bg-red-400 w-[150px] h-[40px] rounded-lg mb-2 text-xl text-[#515151] shadow-xl hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer  "><p className="flex p-2 grid place-content-center  font-semibold">Contact Me</p></NavLink> 
+        <div className="hidden md:flex w-full h-[65px] p-3 px-4 md:p-6 md:px-16 items-center lg:justify-end" >
+            <div className='flex gap-6 lg:justify-between'>
+                <NavLink  to="/about"className="md:text-[16px]   lg:text-[18px] mt-2 text-[#515151] hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:text-red-400  font-semibold  ">About Me</NavLink>
+                <NavLink to="/codingprofile" className="md:text-[16px] lg:text-[18px] mt-2 text-[#515151] hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:text-red-400 font-semibold">Coding Profile</NavLink>
+                <NavLink  to="/projects" className="md:text-[16px] lg:text-[18px] mt-2 text-[#515151] hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:text-red-400  font-semibold">Projects</NavLink>
+                <NavLink to="/education" className="md:text-[16px] lg:text-[18px] mt-2  text-[#515151] hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:text-red-400  font-semibold ">Education </NavLink>
+                <NavLink  to="/contact" className="md:text-[16px] lg:text-[18px] bg-red-400 w-[150px] h-[40px] rounded-lg mb-2 text-xl text-[#515151] shadow-xl hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer  "><p className="flex items-center justify-center font-semibold ">Contact Me</p></NavLink> 
             </div>
             
         </div>
