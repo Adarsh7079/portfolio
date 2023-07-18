@@ -31,37 +31,37 @@ const Contact = () => {
   }
 
   return (
-    <div className="">
+    <div className="mt-[3rem]">
       <div className="flex mx-auto justify-center">
-        <p className=" lg:text-[6rem] text-[2.5rem] flex justify-center mt-[2rem] font-bold text-cyan-600  lg:justify-between" >
+        <p className=" lg:text-[5rem] text-[2.5rem] flex justify-center -mt-[4rem] font-bold text-cyan-600  lg:justify-between" >
           <u>Contact me</u>
         </p>
       </div>
 
-      <div className="  flex lg:gap-[35rem] flex-wrap">
+      <div className="  flex  lg:justify-between flex-wrap">
          <div className="lg:max-w-[60%] lg:w-[600px] flex flex-col mx-auto md:mx-0">
-            <p className="lg:text-[4rem] text-[2rem] uppercase mt-[8rem] text-cyan-600">Contact Info</p>
+            <p className="lg:text-[2.8rem] text-[2rem] uppercase mt-[4rem] text-cyan-600">Contact Info</p>
 
               <div className="flex flex-col gap-3 mt-[3rem]">
                   <div className="flex gap-3 items-center">
-                      <HiOutlineEnvelope className="lg:text-[3rem] text-[1.8rem] text-gray-600"/>
-                      <a href="mailto:adarshk8271@gmail.com" className="lg:text-[1.8rem] text-[1rem] text-gray-600 hover:text-gray-900 transition duration-1000">  adarshk8271@gail.com</a>
+                      <HiOutlineEnvelope className="lg:text-[1.5rem] text-[1.8rem] text-gray-600"/>
+                      <a href="mailto:adarshk8271@gmail.com" className="lg:text-[1.3rem] text-[1rem] text-gray-600 hover:text-gray-900 transition duration-1000">  adarshk8271@gail.com</a>
                   </div>
                   <div className="flex gap-3 items-center">
-                      <HiMiniPhone className="lg:text-[3rem] text-[1.8rem] text-gray-600"/>
-                      <a href="tel:7079429676" className="lg:text-[1.8rem] text-[1rem] text-gray-600 hover:text-gray-900  transition duration-1000">+91-707942XXXX</a>
+                      <HiMiniPhone className="lg:text-[1.5rem] text-[1.8rem] text-gray-600"/>
+                      <a href="tel:7079429676" className="lg:text-[1.2rem] text-[1rem] text-gray-600 hover:text-gray-900  transition duration-1000">+91-707942XXXX</a>
                   </div>
                   <div className="flex gap-3 items-center">
-                      <IoLogoLinkedin className="lg:text-[3rem] text-[1.8rem] text-gray-600"/>
-                      <a href="https://www.linkedin.com/in/adarsh-paritosh-59b396203/" className="lg:text-[1.8rem] text-[1rem] text-gray-600 hover:text-gray-900  transition duration-1000">Adarsh Paritosh</a>
+                      <IoLogoLinkedin className="lg:text-[1.5rem] text-[1.8rem] text-gray-600"/>
+                      <a href="https://www.linkedin.com/in/adarsh-paritosh-59b396203/" className="lg:text-[1.2rem] text-[1rem] text-gray-600 hover:text-gray-900  transition duration-1000">Adarsh Paritosh</a>
                   </div>
                   <div className="flex gap-3 items-center">
-                    <IoLogoInstagram className="lg:text-[3rem] text-[1.8rem] text-gray-600"/>
-                    <a href="https://instagram.com/adarshparitosh?igshid=ZDdkNTZiNTM=" className="lg:text-[1.8rem] text-[1rem] text-gray-600 hover:text-gray-900  transition duration-1000">  adarshparitosh</a>
+                    <IoLogoInstagram className="lg:text-[1.5rem] text-[1.8rem] text-gray-600"/>
+                    <a href="https://instagram.com/adarshparitosh?igshid=ZDdkNTZiNTM=" className="lg:text-[1.2rem] text-[1rem] text-gray-600 hover:text-gray-900  transition duration-1000">  adarshparitosh</a>
                   </div>
               </div>
           </div>
-          <div className="lg:w-[400px] mt-[7rem] flex  md:flex-col flex mx-auto">
+          <div className="lg:w-[400px] mt-[5rem] flex  md:flex-col flex mx-auto">
             {/* <fieldset className="border border-solid rounded-3xl p-5 md:mx-[6rem] mt-[3rem]">
               <legend className="flex md:gap-4 gap-2 mx-auto items-center content-center place-content-center "><p className="text-[2rem] text-gray-500">Send message</p> </legend>
              
